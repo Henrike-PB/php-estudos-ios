@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatting</title>
+
+
+    <style>
+
+        main{
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <main>
+        <h1> Formulário </h1>
+
+    <form action="cores.php" method="get">
+
+        <label for="itexto">Texto</label>
+        <input type="text" name="texto" id="itexto">
+        <br>
+
+        <label for="itamanho">Tamanho:</label>
+        <select name="tamanho" id="itamanho">
+            <option value="8pt"> 8 </option>
+            <option value="10pt"> 10 </option>
+            <option value="14pt"> 14 </option>
+            <option value="20pt"> 20 </option>
+            <option value="40pt"> 40 </option>
+        </select>
+        <br>
+
+        <label for="icor">Cor:</label>
+        <input type="color" name="cor" id="icor">
+        <br>
+
+        <label for="ifonte">Fonte:</label>
+        <select name="fonte" id="ifundo">
+            <option value="sans-serif"> Sem serifa</option>
+            <option value="serif"> Serifada</option>
+            <option value="Courier"> Courier </option>
+        </select>
+        <br>
+
+        <label for="ifundo">Fundo:</label>
+        <input type="color" name="fundo" id="ifundo">
+
+        <input type="submit" value="Gerar">
+    </form>    
+    </main>
+    
+
+    
+</body>
+</html>
