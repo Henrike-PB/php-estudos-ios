@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 33px;
+}
