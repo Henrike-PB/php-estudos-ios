@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #FCF903;
+}
+ 
+h1 {
+    font-size: 90px;
+    padding: 4px 5%;
+}
+
+ul{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #F27330;
+    margin: 0 auto;
+    width: 20%;
+    padding: 6px;
+    list-style-type: none;
+    border-radius: 15px;    
+}
+
+li {
+    padding: 5px;
+}
+
+.capBack{
+
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.cap {
+    z-index: 1000;
+    width: 230px;
+    transform: translateY(660px);
+   
+}
+   
+
