@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    .color1 {color: #000016;}
+.color2 {color: #202d51;}
+.color3 {color: #525999;}
+.color4 {color: #968ceb;}
+.color5 {color: #ecc4ff;}
+}
+
+body {
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Adicionamos esta linha para alinhar os elementos verticalmente */
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Adicionamos esta linha para alinhar os elementos verticalmente */
+    margin-top: 20px; /* Adicionamos um espaço superior para separar o cabeçalho */
+}
+
+.divBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adicionamos um espaço superior para separar o formulário */
+}
+
+form {
+    
+    text-align: center;
+}
+
+.label {
+    padding: 5px;
+}
+
+.number{
+    width: 50%;
+    padding: 5px 5%;
+}
+
+.submit{
+    width: 50%;
+    padding: 5px 5%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
